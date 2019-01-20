@@ -1,0 +1,127 @@
+body{
+    background-image: url("../images/giphy.gif");
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+ 
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+img {
+    position: relative;
+}
+
+#startBtn {
+font-size: 50px;
+color: whitesmoke;
+background-color: black;
+margin-top: 5%;
+font-family: 'Pacifico', cursive;
+}
+
+#startBtn:hover {
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+p{
+    padding: 2.5%px;
+    font-size: 30px;
+}
+
+#game-play {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#timer {
+    font-size: 24px;
+    border-bottom: 2px solid whitesmoke;
+    padding: 2.5%;
+    font-family: 'Pacifico', cursive;
+    
+}
+#currentQuestion {
+    font-size: 24px;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Pacifico', cursive;
+    padding: 2.5%;
+}
+.question {
+    padding: 2.5%;
+    font-size: 40px;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Pacifico', cursive;
+}
+.answerList{
+    font-size: 30px;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Pacifico', cursive;
+    padding: 5%;
+}
+
+#correctedAnswer {
+    font-size: 24px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Pacifico', cursive;
+    padding: 2.5%;
+}
+#message {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    padding: 5%;
+}
+
+
+#finalMessage {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 10px;
+}
+#correctAnswers {
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+}
+#wrongAnswers{
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+}
+#unanswered {
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+}
+
+#startAgainBtn {
+    font-size: 40px;   
+    background-color: black;
+    font-family: 'Pacifico', cursive;
+    margin-top: 10px;
+}
+
+#startAgainBtn:hover {
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.thisChoice:hover{
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+
